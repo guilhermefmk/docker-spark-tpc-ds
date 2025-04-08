@@ -1,7 +1,7 @@
 FROM python:3.10-bullseye as spark-base
 
 ARG SPARK_VERSION=3.3.1
-ARG HADOOP_VERSION=3.3.4
+ARG HADOOP_VERSION=3.3.6
 
 
 # Install tools required by the OS
@@ -15,6 +15,7 @@ RUN apt-get update && \
       openjdk-11-jdk \
       build-essential \
       software-properties-common \
+      bc \
       ssh && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*

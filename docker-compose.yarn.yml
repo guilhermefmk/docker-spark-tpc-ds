@@ -11,6 +11,7 @@ services:
     volumes:
       - ./book_data:/opt/spark/data
       - ./spark_apps:/opt/spark/apps
+      - ./output:/opt/spark/output
     env_file:
       - .env.spark
     ports:
@@ -18,7 +19,8 @@ services:
       - '9870:9870'
       - '7077:7077'
       - '8088:8088'
-
+    environment:
+      - SPARK_MASTER_MEMORY=2g  # Memória do Master
 
   spark-yarn-worker:
 #    container_name: da-spark-worker
@@ -31,6 +33,9 @@ services:
     volumes:
       - ./book_data:/opt/spark/data
       - ./spark_apps:/opt/spark/apps
+    environment:
+      - SPARK_WORKER_CORES=3    # Número de núcleos de CPU do Worker
+      - SPARK_WORKER_MEMORY=4g  # Memória do Worker
 
   yarn-history-server:
     container_name: da-spark-yarn-history

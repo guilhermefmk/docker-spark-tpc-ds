@@ -62,3 +62,6 @@ traitlets==5.8.0
     #   matplotlib-inline
 wcwidth==0.2.5
     # via prompt-toolkit
+
+sparkmeasure
+tpcds_pyspark
