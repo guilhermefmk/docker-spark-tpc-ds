@@ -52,9 +52,10 @@ submit:
 		./apps/$(app) \
 		-d /opt/spark/data/tpcds_10 \
 		-o $(OUTPUT_DIR) \
-		--run_using_metastore \
 		$(if $(queries),-q $(queries),) \
-		$(if $(cbo),$(if $(use_metastore),--run_using_metastore,--create_metastore_tables_and_compute_statistics),)
+		$(if $(cbo),$(if $(use_metastore),--run_using_metastore,--create_metastore_tables_and_compute_statistics),) \
+		$(if $(log),> ./output/$(shell date +%Y%m%d%H%M%S)_$(if $(queries),$(queries),all).log 2>&1,)
+	@echo "Output written to $(OUTPUT_DIR)"
 		
 submit-da-book:
 	make submit app=data_analysis_book/$(app)

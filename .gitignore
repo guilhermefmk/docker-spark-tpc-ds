@@ -1,7 +1,6 @@
 .idea
 .DS_Store
 book_data/*
-output/*
 /backup/
 /docker-compose.generated.yml
 /yarn-generated/

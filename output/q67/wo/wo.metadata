@@ -1,0 +1,23 @@
+
+****************************************************************************************
+TPCDS with PySpark - workload configuration and metadata summary
+****************************************************************************************
+
+Queries list = q67
+Number of runs = 2
+Query execution repeat times = 3
+Total number of executed queries = 6
+Sleep time (sec) between queries = 1
+Queries path = /usr/local/lib/python3.10/site-packages/tpcds_pyspark/Queries
+Data path = /opt/spark/data/tpcds_10
+Start time = Mon Apr 14 19:11:55 2025
+End time = Mon Apr 14 19:16:39 2025
+
+Spark version = 3.3.3
+Spark master = spark://spark-master:7077
+Executor memory: 4g
+Executor cores: 3
+Dynamic allocation: 
+Cost Based Optimization (CBO): false
+Histogram statistics: false
+

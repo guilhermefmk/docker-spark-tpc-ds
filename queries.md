@@ -44,26 +44,7 @@ Para um TCC focado em benchmarks com SparkMeasure, uma seleção estratégica de
 
 Esta seleção permitirá uma análise abrangente sem a sobrecarga de executar o benchmark completo.
 
-## Tabela de Controle de Progresso
 
-| Query | Sem Otimização | Com AQE | Com CBO | Otimização Personalizada | Notas/Observações |
-|-------|----------------|---------|---------|--------------------------|-------------------|
-| q3    | ❌             | ❌      | ❌      | ❌                       |                   |
-| q19   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q27   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q42   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q43   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q52   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q55   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q67   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q73   | ❌             | ❌      | ❌      | ❌                       |                   |
-| q98   | ❌             | ❌      | ❌      | ❌                       |                   |
-
-**Legenda:**
-- ❌: Não executado
-- ✅: Executado com sucesso
-- 🕒: Em andamento
-- ⚠️: Executado com problemas
 
 **Configurações de otimizações personalizadas testadas:**
 1. [Descreva sua configuração personalizada 1]
