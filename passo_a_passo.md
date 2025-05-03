@@ -2,21 +2,21 @@
 ## submeter o job
 
 ### YARN
-make submit-yarn-cluster app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.executor.memory=2g spark.executor.cores=2 spark.executor.instances=3 spark.sql.adaptive.enabled=false" queries="q1" output=q1/wo/teste
+make submit-yarn-cluster app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.executor.memory=2g spark.executor.cores=2 spark.executor.instances=3 spark.sql.adaptive.enabled=false" queries="QUERIE" output=QUERIE/wo/
 ## entre no cluster e copie do hdfs para o file system
 hdfs dfs -get /opt/spark/output/* /opt/spark/output/
 
 ### STANDALONE
 #### WO (Without optimization)
-make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=false spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="q27" output=q27/wo/wo
+make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=false spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="QUERIE" output=QUERIE/wo/wo
 #### AQE
-make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=true spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="q19" output=q19/aqe/aqe
+make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=true spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="QUERIE" output=QUERIE/aqe/aqe
 #### CBO
-make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=false spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="q19" output=q19/cbo/cbo cbo=true 
+make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=false spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="QUERIE" output=QUERIE/cbo/cbo cbo=true 
 
 use_metastore=true
 #### AQE+CBO
-make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=true spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="q19" output=q19/cboaqe/cboaqe cbo=true 
+make submit app=data_analysis_book/tpcds_pyspark/tpcds_pyspark_run.py SPARK_CONF="spark.sql.adaptive.enabled=true spark.executor.memory=4g spark.executor.cores=3 spark.executor.instances=3" queries="QUERIE" output=QUERIE/cboaqe/cboaqe cbo=true 
 
 use_metastore=true
 
@@ -33,7 +33,7 @@ use_metastore=true
 | q55   | ✅             | ✅      | ✅      | ✅       |                   |
 | q67   | ✅             | ✅      | ✅      | ✅       |                   |
 | q73   | ✅             | ✅      | ✅      | ✅       |                   |
-| q98   | ❌             | ❌      | ❌      | ❌       |                   |
+| q98   | ✅             | ✅      | ✅      | ✅       |                   |
 
 **Legenda:**
 - ❌: Não executado

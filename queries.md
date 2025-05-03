@@ -4,35 +4,63 @@ Para um TCC focado em benchmarks com SparkMeasure, uma seleção estratégica de
 
 ## Queries Recomendadas e Justificativas
 
-1. **Query 3** - Agregação com filtros de data
-   - Justificativa: Avalia filtros seletivos e agregações simples, bom para testar otimizações de predicado
+\subsubsection{Detalhamento dos Padrões de Consulta}
 
-2. **Query 19** - Junção complexa de múltiplas tabelas
-   - Justificativa: Teste robusto para otimização de ordenação de junções pelo CBO
+As 10 queries TPC-DS selecionadas representam diferentes perfis de utilização de recursos computacionais:
 
-3. **Query 27** - Agregação com múltiplos GROUP BY
-   - Justificativa: Avalia operações de agregação complexas e otimizações de memória
+\begin{enumerate}
+    \item \textbf{Query 3} \\ 
+    \textit{Padrão}: Agregação com filtros complexos. \\ 
+    \textit{Características}: Uso moderado de CPU com operações reduzidas de shuffle e uso eficiente de memória. \\ 
+    \textit{Justificativa}: Selecionada por apresentar equilíbrio entre processamento e I/O, ideal para avaliar técnicas de filtragem de dados sem excessivo consumo de recursos.
 
-4. **Query 42** - Query relativamente simples com esquema em estrela
-   - Justificativa: Bom baseline para comparar com queries mais complexas
+    \item \textbf{Query 19} \\ 
+    \textit{Padrão}: Análise de desempenho de vendas por marca. \\ 
+    \textit{Características}: Uso moderado de CPU com volume considerável de shuffle e utilização significativa de memória. \\ 
+    \textit{Justificativa}: Representa consultas com múltiplas junções que se beneficiam da reordenação, com consumo de memória proporcional à complexidade das junções.
 
-5. **Query 43** - Junções com subconsulta correlacionada
-   - Justificativa: Testa otimizações de subconsultas e planos de execução
+    \item \textbf{Query 27} \\ 
+    \textit{Padrão}: Segmentação de clientes com filtragem demográfica. \\ 
+    \textit{Características}: Alto throughput com operações substanciais de shuffle e uso considerável de CPU. \\ 
+    \textit{Justificativa}: Combina alto throughput com operações substanciais de shuffle, ideal para avaliação do particionamento adaptativo em dados segmentados.
 
-6. **Query 52** - Grande agregação com cláusulas HAVING
-   - Justificativa: Alta demanda de shuffle, útil para testar gerenciamento de memória
+    \item \textbf{Query 42} \\ 
+    \textit{Padrão}: Análise de vendas por categoria e ano. \\ 
+    \textit{Características}: Uso mínimo de CPU, baixo volume de shuffle e consumo reduzido de memória. \\ 
+    \textit{Justificativa}: Representa o caso base ideal com excelente eficiência de recursos, servindo como baseline para comparação com queries mais complexas.
 
-7. **Query 55** - Junções complexas com subconsultas
-   - Justificativa: Útil para demonstrar transformações de plano com CBO ativado
+    \item \textbf{Query 43} \\ 
+    \textit{Padrão}: Análise de impacto promocional nas vendas. \\ 
+    \textit{Características}: Baixo consumo de memória e throughput reduzido com processamento moderado. \\ 
+    \textit{Justificativa}: Demonstra comportamento distinto de I/O, com estrutura de filtragem complexa que se beneficia de otimizações de predicados.
 
-8. **Query 67** - Análise temporal com várias agregações
-   - Justificativa: Testa particionamento e janelamento de dados
+    \item \textbf{Query 52} \\ 
+    \textit{Padrão}: Análise de comportamento de devolução de produtos. \\ 
+    \textit{Características}: Uso moderado de CPU com memória significativa e bom throughput de dados. \\ 
+    \textit{Justificativa}: Representa consultas com operações de agregação após junções, apresentando uso considerável de memória apesar do processamento moderado.
 
-9. **Query 73** - Subconsultas complexas e várias junções
-   - Justificativa: Alto potencial de otimização pelo CBO, ideal para pesquisa
+    \item \textbf{Query 55} \\ 
+    \textit{Padrão}: Análise de vendas por região geográfica. \\ 
+    \textit{Características}: Perfil similar à Q52, com bom throughput e uso considerável de memória. \\ 
+    \textit{Justificativa}: Avalia otimizações em consultas com distribuição potencialmente desigual de dados entre partições geográficas.
 
-10. **Query 98** - Grande agregação com expressões complexas
-    - Justificativa: Testa tanto CPU quanto operações de shuffle/IO
+    \item \textbf{Query 67} \\ 
+    \textit{Padrão}: Análise de tendências com funções de janelamento. \\ 
+    \textit{Características}: Consumo extremamente elevado de CPU, operações massivas de shuffle e alto uso de memória, com throughput muito reduzido. \\ 
+    \textit{Justificativa}: Representa o caso extremo de processamento analítico com operações de janelamento, permitindo avaliar o impacto das otimizações em cenários críticos de alta complexidade.
+
+    \item \textbf{Query 73} \\ 
+    \textit{Padrão}: Análise de padrões de compra por cliente. \\ 
+    \textit{Características}: Alto consumo de memória e CPU com operações significativas de shuffle e throughput reduzido. \\ 
+    \textit{Justificativa}: Selecionada pelo padrão distintivo entre dados lidos e escritos durante shuffle, ideal para testar otimizações em dimensões geográficas e temporais.
+
+    \item \textbf{Query 98} \\ 
+    \textit{Padrão}: Análise de receita por categoria de produto. \\ 
+    \textit{Características}: O maior consumo de memória entre todas as queries com alta utilização de CPU e operações consideráveis de shuffle. \\ 
+    \textit{Justificativa}: Representa consultas que combinam operações de agregação e janelamento com demanda extrema de memória, críticas para avaliação de técnicas de gerenciamento de recursos.
+\end{enumerate}
+
+Este conjunto diversificado de queries foi selecionado para representar diferentes perfis de utilização de recursos computacionais, desde consultas leves e eficientes (Q42) até operações intensivas com funções analíticas avançadas (Q67, Q98), permitindo uma avaliação abrangente das técnicas de otimização do Spark SQL em cenários variados.
 
 ## Benefícios desta seleção:
 
