@@ -1,0 +1,202 @@
+[
+    {
+        "query":"q19",
+        "peakExecutionMemory":7387342384,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q19",
+        "peakExecutionMemory":691401360,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q19",
+        "peakExecutionMemory":691401360,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q19",
+        "peakExecutionMemory":7387342384,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q73",
+        "peakExecutionMemory":8103853648,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q73",
+        "peakExecutionMemory":104152256,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q73",
+        "peakExecutionMemory":104152256,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q73",
+        "peakExecutionMemory":8103853648,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q55",
+        "peakExecutionMemory":5996003232,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q55",
+        "peakExecutionMemory":373803520,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q55",
+        "peakExecutionMemory":373803520,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q55",
+        "peakExecutionMemory":5996003232,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q43",
+        "peakExecutionMemory":759903616,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q43",
+        "peakExecutionMemory":36648640,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q43",
+        "peakExecutionMemory":36648640,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q43",
+        "peakExecutionMemory":759903616,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q52",
+        "peakExecutionMemory":6767728640,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q52",
+        "peakExecutionMemory":373777360,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q52",
+        "peakExecutionMemory":373777360,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q52",
+        "peakExecutionMemory":6767728640,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q67",
+        "peakExecutionMemory":11827560464,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q67",
+        "peakExecutionMemory":6575966688,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q67",
+        "peakExecutionMemory":6575966688,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q67",
+        "peakExecutionMemory":11827560464,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q3",
+        "peakExecutionMemory":5529150768,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q3",
+        "peakExecutionMemory":41168720,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q3",
+        "peakExecutionMemory":41168720,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q3",
+        "peakExecutionMemory":5529150768,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q27",
+        "peakExecutionMemory":29578891904,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q27",
+        "peakExecutionMemory":481702624,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q27",
+        "peakExecutionMemory":481702624,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q27",
+        "peakExecutionMemory":7175808640,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q98",
+        "peakExecutionMemory":18420610304,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q98",
+        "peakExecutionMemory":814503328,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q98",
+        "peakExecutionMemory":814503328,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q98",
+        "peakExecutionMemory":18420610304,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q42",
+        "peakExecutionMemory":761278096,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q42",
+        "peakExecutionMemory":373567280,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q42",
+        "peakExecutionMemory":373567280,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q42",
+        "peakExecutionMemory":761278096,
+        "execution_type":"Sem otimizações"
+    }
+]

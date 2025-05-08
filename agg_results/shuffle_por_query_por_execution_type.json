@@ -1,0 +1,242 @@
+[
+    {
+        "query":"q19",
+        "shuffleBytesWritten":605910,
+        "shuffleTotalBytesRead":605910,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q19",
+        "shuffleBytesWritten":541770,
+        "shuffleTotalBytesRead":541770,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q19",
+        "shuffleBytesWritten":541770,
+        "shuffleTotalBytesRead":541770,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q19",
+        "shuffleBytesWritten":605910,
+        "shuffleTotalBytesRead":605910,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q73",
+        "shuffleBytesWritten":17051514,
+        "shuffleTotalBytesRead":33969918,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q73",
+        "shuffleBytesWritten":17050339,
+        "shuffleTotalBytesRead":33968104,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q73",
+        "shuffleBytesWritten":17050339,
+        "shuffleTotalBytesRead":33968104,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q73",
+        "shuffleBytesWritten":17051514,
+        "shuffleTotalBytesRead":33969918,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q55",
+        "shuffleBytesWritten":235300,
+        "shuffleTotalBytesRead":235300,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q55",
+        "shuffleBytesWritten":211879,
+        "shuffleTotalBytesRead":211879,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q55",
+        "shuffleBytesWritten":211879,
+        "shuffleTotalBytesRead":211879,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q55",
+        "shuffleBytesWritten":235300,
+        "shuffleTotalBytesRead":235300,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q43",
+        "shuffleBytesWritten":29804,
+        "shuffleTotalBytesRead":29804,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q43",
+        "shuffleBytesWritten":27084,
+        "shuffleTotalBytesRead":27084,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q43",
+        "shuffleBytesWritten":27084,
+        "shuffleTotalBytesRead":27084,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q43",
+        "shuffleBytesWritten":29804,
+        "shuffleTotalBytesRead":29804,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q52",
+        "shuffleBytesWritten":296600,
+        "shuffleTotalBytesRead":296600,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q52",
+        "shuffleBytesWritten":266731,
+        "shuffleTotalBytesRead":266731,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q52",
+        "shuffleBytesWritten":266731,
+        "shuffleTotalBytesRead":266731,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q52",
+        "shuffleBytesWritten":296600,
+        "shuffleTotalBytesRead":296600,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q67",
+        "shuffleBytesWritten":1208758459,
+        "shuffleTotalBytesRead":1208758459,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q67",
+        "shuffleBytesWritten":1208291363,
+        "shuffleTotalBytesRead":1208291363,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q67",
+        "shuffleBytesWritten":1208296502,
+        "shuffleTotalBytesRead":1208296502,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q67",
+        "shuffleBytesWritten":1208752965,
+        "shuffleTotalBytesRead":1208752965,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q3",
+        "shuffleBytesWritten":229919,
+        "shuffleTotalBytesRead":229919,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q3",
+        "shuffleBytesWritten":206438,
+        "shuffleTotalBytesRead":206438,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q3",
+        "shuffleBytesWritten":206438,
+        "shuffleTotalBytesRead":206438,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q3",
+        "shuffleBytesWritten":229919,
+        "shuffleTotalBytesRead":229919,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q27",
+        "shuffleBytesWritten":690777830,
+        "shuffleTotalBytesRead":690777830,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q27",
+        "shuffleBytesWritten":687649605,
+        "shuffleTotalBytesRead":687649605,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q27",
+        "shuffleBytesWritten":2218125,
+        "shuffleTotalBytesRead":2218125,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q27",
+        "shuffleBytesWritten":2855592,
+        "shuffleTotalBytesRead":2855592,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q98",
+        "shuffleBytesWritten":13431088,
+        "shuffleTotalBytesRead":18854781,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q98",
+        "shuffleBytesWritten":12503007,
+        "shuffleTotalBytesRead":14475437,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q98",
+        "shuffleBytesWritten":12502908,
+        "shuffleTotalBytesRead":14474845,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q98",
+        "shuffleBytesWritten":13431347,
+        "shuffleTotalBytesRead":18855137,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q42",
+        "shuffleBytesWritten":10029,
+        "shuffleTotalBytesRead":10029,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q42",
+        "shuffleBytesWritten":9116,
+        "shuffleTotalBytesRead":9116,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q42",
+        "shuffleBytesWritten":9116,
+        "shuffleTotalBytesRead":9116,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q42",
+        "shuffleBytesWritten":10029,
+        "shuffleTotalBytesRead":10029,
+        "execution_type":"Sem otimizações"
+    }
+]

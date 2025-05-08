@@ -1,0 +1,14 @@
+[
+    {
+        "optimization":"AQE",
+        "improvement":1.3873628167
+    },
+    {
+        "optimization":"CBO",
+        "improvement":0.9356209917
+    },
+    {
+        "optimization":"CBO+AQE",
+        "improvement":1.3033879999
+    }
+]

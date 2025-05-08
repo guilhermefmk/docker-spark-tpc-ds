@@ -1,0 +1,202 @@
+[
+    {
+        "query":"q19",
+        "elapsedTime":2318,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q19",
+        "elapsedTime":1908,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q19",
+        "elapsedTime":1990,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q19",
+        "elapsedTime":2751,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q73",
+        "elapsedTime":3333,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q73",
+        "elapsedTime":1972,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q73",
+        "elapsedTime":2156,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q73",
+        "elapsedTime":3233,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q55",
+        "elapsedTime":1650,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q55",
+        "elapsedTime":1017,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q55",
+        "elapsedTime":1243,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q55",
+        "elapsedTime":1857,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q43",
+        "elapsedTime":1999,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q43",
+        "elapsedTime":1409,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q43",
+        "elapsedTime":1657,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q43",
+        "elapsedTime":1945,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q52",
+        "elapsedTime":1878,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q52",
+        "elapsedTime":1108,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q52",
+        "elapsedTime":1215,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q52",
+        "elapsedTime":1885,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q67",
+        "elapsedTime":28616,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q67",
+        "elapsedTime":27899,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q67",
+        "elapsedTime":27326,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q67",
+        "elapsedTime":45862,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q3",
+        "elapsedTime":1985,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q3",
+        "elapsedTime":1153,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q3",
+        "elapsedTime":1114,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q3",
+        "elapsedTime":1928,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q27",
+        "elapsedTime":16451,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q27",
+        "elapsedTime":10434,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q27",
+        "elapsedTime":1912,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q27",
+        "elapsedTime":2624,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q98",
+        "elapsedTime":3876,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q98",
+        "elapsedTime":2301,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q98",
+        "elapsedTime":2151,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q98",
+        "elapsedTime":4079,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    },
+    {
+        "query":"q42",
+        "elapsedTime":1684,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q42",
+        "elapsedTime":1014,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q42",
+        "elapsedTime":1389,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q42",
+        "elapsedTime":1634,
+        "execution_type":"Sem otimiza\u00e7\u00f5es"
+    }
+]

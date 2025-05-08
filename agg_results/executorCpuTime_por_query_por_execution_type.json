@@ -1,0 +1,202 @@
+[
+    {
+        "query":"q19",
+        "executorCpuTime":6705,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q19",
+        "executorCpuTime":5515,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q19",
+        "executorCpuTime":5799,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q19",
+        "executorCpuTime":6664,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q73",
+        "executorCpuTime":7944,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q73",
+        "executorCpuTime":6043,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q73",
+        "executorCpuTime":6491,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q73",
+        "executorCpuTime":8009,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q55",
+        "executorCpuTime":4820,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q55",
+        "executorCpuTime":3383,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q55",
+        "executorCpuTime":3558,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q55",
+        "executorCpuTime":5122,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q43",
+        "executorCpuTime":5696,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q43",
+        "executorCpuTime":4641,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q43",
+        "executorCpuTime":4885,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q43",
+        "executorCpuTime":5574,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q52",
+        "executorCpuTime":5073,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q52",
+        "executorCpuTime":3679,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q52",
+        "executorCpuTime":3633,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q52",
+        "executorCpuTime":4824,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q67",
+        "executorCpuTime":176025,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q67",
+        "executorCpuTime":165357,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q67",
+        "executorCpuTime":163063,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q67",
+        "executorCpuTime":172709,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q3",
+        "executorCpuTime":4793,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q3",
+        "executorCpuTime":3520,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q3",
+        "executorCpuTime":3596,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q3",
+        "executorCpuTime":4973,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q27",
+        "executorCpuTime":57655,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q27",
+        "executorCpuTime":36028,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q27",
+        "executorCpuTime":8231,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q27",
+        "executorCpuTime":9792,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q98",
+        "executorCpuTime":13490,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q98",
+        "executorCpuTime":5877,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q98",
+        "executorCpuTime":5294,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q98",
+        "executorCpuTime":14034,
+        "execution_type":"Sem otimizações"
+    },
+    {
+        "query":"q42",
+        "executorCpuTime":4147,
+        "execution_type":"Com CBO"
+    },
+    {
+        "query":"q42",
+        "executorCpuTime":3463,
+        "execution_type":"Com CBO+AQE"
+    },
+    {
+        "query":"q42",
+        "executorCpuTime":3616,
+        "execution_type":"Com AQE"
+    },
+    {
+        "query":"q42",
+        "executorCpuTime":4699,
+        "execution_type":"Sem otimizações"
+    }
+]
