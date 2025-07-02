@@ -21,8 +21,6 @@ services:
     ports:
       - '9090:8080'
       - '7077:7077'
-    environment:
-      - SPARK_MASTER_MEMORY=2g  # Memória do Master
 
 
   spark-history-server:
@@ -55,3 +53,4 @@ services:
       - SPARK_WORKER_MEMORY=4g  # Memória do Worker
 volumes:
   spark-logs:
+    driver: local

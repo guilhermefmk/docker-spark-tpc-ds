@@ -1,14 +1,18 @@
 [
     {
         "optimization":"AQE",
-        "improvement":31.9027660632
+        "improvement":1.1245671719
     },
     {
         "optimization":"CBO",
-        "improvement":0.9242598968
+        "improvement":0.9004148215
     },
     {
         "optimization":"CBO+AQE",
-        "improvement":31.9027660632
+        "improvement":0.996238536
+    },
+    {
+        "optimization":"CBO+AQE (sem q27)",
+        "improvement":1.1064702973
     }
 ]

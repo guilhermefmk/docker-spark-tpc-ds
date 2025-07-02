@@ -10,5 +10,9 @@
     {
         "optimization":"CBO+AQE",
         "improvement":1.3033879999
+    },
+    {
+        "optimization":"CBO+AQE (sem q27)",
+        "improvement":1.4180101545
     }
 ]
