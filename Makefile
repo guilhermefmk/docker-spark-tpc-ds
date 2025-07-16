@@ -73,7 +73,7 @@ submit-yarn-cluster:
 		-o $(if $(output),/opt/spark/output/$(output),/opt/spark/output/$(shell date +%Y%m%d%H%M%S)_$(if $(queries),$(queries),all).csv) \
 		$(if $(queries),-q $(queries),)
 
-# Define a space variable for use in the substitution
+
 space := $(subst ,, )
 
 copy-from-hdfs:
